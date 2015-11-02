@@ -1,0 +1,64 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com#slide-out li a {
+	color: white;
+}
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+header, body {
+    padding-left: 240px;
+}
+
+@media only screen and (max-width : 992px) {
+	header, body, footer {
+	  padding-left: 0;
+	}
+}
+
+#slide-out li a {
+	color: white;
+}
+
+#slide-out li:hover {
+	background-color: #2196F3;
+}	
+
+.logo {
+	margin-top: 20px;
+}
+
+#neg-margin-top {
+	margin-top: -20px;
+}
+
+.parallax-container {
+	color: white;
+	height: 250px;
+}
+
+.social-bar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.social-bar li {
+	display: inline;
+}
+
+.social-bar li a {
+	text-decoration: none;
+	display: inline !important;
+	margin: 0;
+	padding: 0 !important;
+}
+
