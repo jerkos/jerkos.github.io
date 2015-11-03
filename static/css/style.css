@@ -91,3 +91,21 @@ header, body {
 .title {
 	font-size: 5em;
 }
+
+.education li {
+	padding-bottom: 12px;
+}
+
+.social-bar-bis li{
+	font-size: 2em;
+	display: inline !important;
+	padding-right: 25px;
+}
+
+.social-bar-bis li a {
+	color:white;
+}
+
+.social-bar-bis li a:hover {
+	color:#9c27b0 !important;
+}
